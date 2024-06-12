@@ -1,0 +1,47 @@
+<---- Core ---->
+linux-zen
+linux-zen-headers
+linux-firmware
+base-devel
+sudo
+nano
+grub
+efibootmgr
+networkmanager
+os-prober
+git
+rustup
+
+<---- Audio/Services ---->
+jack2
+pipewire
+pipewire-pulse
+pipewire-alsa
+pipewire-audio
+wireplumber
+gst-plugin-pipewire
+bluez
+blueman
+
+<---- System ---->
+fish
+hyprland
+wayland
+sddm
+xdg-desktop-portal-hyprland
+swww
+waybar
+rofi-lbonn-wayland-git
+polkit-gnome
+hyprlock
+flatpak
+
+<---- Utilities ---->
+pavucontrol
+pamixer
+network-manager-applet
+bluez-utils
+udiskie
+cliphist
+starship
+lsd

@@ -1,0 +1,9 @@
+ttf-jetbrains-mono-nerd
+noto-fonts-emoji
+adobe-source-pro-fonts
+adobe-source-han-mono-otc-fonts
+adobe-source-code-pro-fonts
+otf-cascadia-code
+ttf-indic-otf
+texlive-fontsextra
+ttf-google-fonts-git
