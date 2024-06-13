@@ -1,6 +1,5 @@
 #!/bin/bash
 
-# Function to display help information
 show_help() {
     script_name=$(basename "$0")
     echo "Usage: $script_name [options]"
@@ -17,18 +16,15 @@ show_help() {
 
 }
 
-# Function to check if rofi is running
 is_rofi_running() {
     pgrep -xu $(id -u) rofi > /dev/null
 }
 
-# Function to start rofi with provided or default arguments
 start_rofi() {
     local args="$@"
     rofi $args
 }
 
-# Function to kill running rofi processes
 kill_rofi() {
     pkill -xu $(id -u) rofi
 }
@@ -39,7 +35,6 @@ if [[ "$1" == "-h" || "$1" == "--help" ]]; then
     exit 0
 fi
 
-# Set default arguments if none are provided
 ROFI_ARGS="${@:-"-show-icons -show drun"}"
 
 if is_rofi_running; then
